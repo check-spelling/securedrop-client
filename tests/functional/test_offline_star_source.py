@@ -41,7 +41,7 @@ def test_offline_star_source(functional_test_offline_context, qtbot):
 
     def sign_in_required_error():
         msg = gui.top_pane.error_status_bar.status_bar.currentMessage()
-        assert msg == "You must sign in to perform this action."
+        assert msg == "You must sign-in to perform this action."
 
     qtbot.waitUntil(sign_in_required_error, timeout=TIME_RENDER_CONV_VIEW)
 

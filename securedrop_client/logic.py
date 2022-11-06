@@ -605,7 +605,7 @@ class Controller(QObject):
         """
         Indicate that a user needs to login to perform the specified action.
         """
-        error = _("You must sign in to perform this action.")
+        error = _("You must sign-in to perform this action.")
         self.gui.update_error_status(error)
 
     def authenticated(self) -> bool:

@@ -338,7 +338,7 @@ def test_Controller_on_action_requiring_login(homedir, config, mocker, session_m
 
     co.on_action_requiring_login()
 
-    mock_gui.update_error_status.assert_called_once_with("You must sign in to perform this action.")
+    mock_gui.update_error_status.assert_called_once_with("You must sign-in to perform this action.")
 
 
 def test_Controller_authenticated_yes(homedir, config, mocker, session_maker):
