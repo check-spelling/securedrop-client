@@ -2586,7 +2586,7 @@ def test_SpeechBubble_init_with_error(mocker):
 def test_SpeechBubble_adjust_width(mocker):
     """
     Ensure that the speech bubble is set to the minimum allowed width if the supplied container
-    width is smaller than than the minimum allowed container width. Otherwise check that the width
+    width is smaller than the minimum allowed container width. Otherwise check that the width
     is set to the width of the container multiplied by the stretch factor ratio.
     """
 
@@ -3096,7 +3096,7 @@ def test_FileWidget_init_file_downloaded(mocker, source, session):
 def test_FileWidget_adjust_width(mocker):
     """
     Ensure that the file widget is set to the minimum allowed width if the supplied container width
-    is smaller than than the minimum allowed container width. Otherwise check that the width is set
+    is smaller than the minimum allowed container width. Otherwise check that the width is set
     to the width of the container multiplied by the stretch factor ratio.
     """
     file = factory.File(source=factory.Source(), is_downloaded=True)
