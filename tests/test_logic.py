@@ -948,7 +948,7 @@ def test_Controller_on_seen_success(homedir, mocker, session_maker):
 def test_Controller_on_seen_failure(homedir, mocker, session_maker):
     co = Controller("http://localhost", mocker.MagicMock(), session_maker, homedir, None)
     debug_logger = mocker.patch("securedrop_client.logic.logger.debug")
-    error = Exception("errorororr")
+    error = Exception("error error")
     co.on_seen_failure(error)
     debug_logger.assert_called_once_with(error)
 
