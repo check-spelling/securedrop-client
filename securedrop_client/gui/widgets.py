@@ -3198,7 +3198,7 @@ class ReplyBoxWidget(QWidget):
 class ReplyTextEdit(QPlainTextEdit):
     """
     A plaintext textbox with placeholder that disappears when clicked and
-    a richtext lable on top to replace the placeholder functionality
+    a richtext label on top to replace the placeholder functionality
     """
 
     def __init__(self, source: Source, controller: Controller) -> None:
