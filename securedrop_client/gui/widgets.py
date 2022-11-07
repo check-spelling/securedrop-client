@@ -3197,7 +3197,7 @@ class ReplyBoxWidget(QWidget):
 
 class ReplyTextEdit(QPlainTextEdit):
     """
-    A plaintext textbox with placeholder that disapears when clicked and
+    A plaintext textbox with placeholder that disappears when clicked and
     a richtext lable on top to replace the placeholder functionality
     """
 
