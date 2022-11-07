@@ -432,7 +432,7 @@ class Controller(QObject):
         Setup the application with the default state of:
 
         * Not logged in.
-        * Show most recent state of syncronised sources.
+        * Show most recent state of synchronized sources.
         * Show the login screen.
         * Check the sync status every 30 seconds.
         """
