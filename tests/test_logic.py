@@ -1162,7 +1162,7 @@ def test_create_client_dir_permissions(tmpdir, mocker, session_maker):
     """
     mock_gui = mocker.MagicMock()
 
-    # we can't rely on the config fixture, and because of the order of exectution,
+    # we can't rely on the config fixture, and because of the order of execution,
     # we can't create the config at the right time, we we have to mock both
     # `open` and `json.loads`
     mock_open = mocker.patch("securedrop_client.config.open")
