@@ -4584,7 +4584,7 @@ def test_ReplyBoxWidget__on_authentication_changed_offline(mocker, homedir):
 
 def test_ReplyBoxWidget_auth_signals(mocker, homedir):
     """
-    Ensure we connect to the auth signal and set the intial state on update
+    Ensure we connect to the auth signal and set the initial state on update
     """
     connect = mocker.MagicMock()
     signal = mocker.MagicMock(connect=connect)

@@ -639,7 +639,7 @@ class MainView(QWidget):
         else:
             self.empty_conversation_view.hide()
 
-        # If the source list in the GUI is empty, then we will run the optimized intial update.
+        # If the source list in the GUI is empty, then we will run the optimized initial update.
         # Otherwise, do a regular source list update.
         if not self.source_list.source_items:
             self.source_list.initial_update(sources)
