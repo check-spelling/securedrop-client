@@ -46,7 +46,7 @@ class RunnableQueue(QObject):
     ApiInaccessibleError before it makes an api call, which will repeat this process.
 
     Any other exception encountered while processing a job is unexpected, so the queue will drop the
-    job and continue on to processing the next job. The job itself is responsible for emiting the
+    job and continue on to processing the next job. The job itself is responsible for emitting the
     success and failure signals, so when an unexpected error occurs, it should emit the failure
     signal so that the Controller can respond accordingly.
     """
