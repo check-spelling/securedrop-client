@@ -228,7 +228,7 @@ def update_local_storage(
 
     # Remove source UUIDs from DeletedConversation table and/or the DeletedSource table.
     # Records enter these tables when a user deletes data locally and the
-    # data is succesfully scheduled for deletion on the server. In order to guard
+    # data is successfully scheduled for deletion on the server. In order to guard
     # against locally-deleted records being re-added to the database (even for a few seconds)
     # during a stale sync, we flag them in these tables ("Deleting files and messages"
     # corresponds to the DeletedConversation table, and deleting a source corresponds
