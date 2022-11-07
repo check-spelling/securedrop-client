@@ -46,6 +46,6 @@ def test_offline_delete_source_attempt(functional_test_offline_context, qtbot, m
 
     def check_for_error():
         msg = gui.top_pane.error_status_bar.status_bar.currentMessage()
-        assert msg == "You must sign in to perform this action."
+        assert msg == "You must sign-in to perform this action."
 
     qtbot.waitUntil(check_for_error, timeout=TIME_CLICK_ACTION)

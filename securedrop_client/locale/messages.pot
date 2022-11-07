@@ -35,7 +35,7 @@ msgstr ""
 msgid "That didn't work. Please check everything and try again."
 msgstr ""
 
-msgid "You must sign in to perform this action."
+msgid "You must sign-in to perform this action."
 msgstr ""
 
 msgid "Your session expired. Please log in again."
