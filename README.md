@@ -175,7 +175,7 @@ See [SecureDrop docs on setting up a staging server](https://docs.securedrop.org
 3. Create a `config.json` file
 
 ```
-cd securedrop-worksation
+cd securedrop-workstation
 cp config.json.example config.json
 vi config.json
 ```
@@ -227,7 +227,7 @@ See [SecureDrop docs on setting up a server](https://docs.securedrop.org/en/late
 3. Create a `config.json` file
 
 ```
-cd securedrop-worksation
+cd securedrop-workstation
 cp config.json.example config.json
 vi config.json
 ```
