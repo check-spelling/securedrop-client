@@ -17,7 +17,7 @@ def test_ApiInaccessibleError_init():
     assert str(err) == msg
 
 
-def test_ApiJob_raises_NotImplemetedError():
+def test_ApiJob_raises_NotImplementedError():
     job = ApiJob()
 
     with pytest.raises(NotImplementedError):
