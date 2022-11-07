@@ -5248,7 +5248,7 @@ def test_SenderIcon_sets_text_to_initials(mocker):
 
 def test_SenderIcon_sets_text_to_initials_for_authenticated_user(mocker):
     """
-    Ensure reply sender badge sets label to initials of the sender for authnenticated user.
+    Ensure reply sender badge sets label to initials of the sender for authenticated user.
     """
     sender = factory.User()
     si = SenderIcon()
