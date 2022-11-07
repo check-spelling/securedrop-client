@@ -67,7 +67,7 @@ def test_APICallRunner_call_api(mocker):
 
 def test_APICallRunner_with_exception(mocker):
     """
-    An exception has occured so emit False.
+    An exception has occurred so emit False.
     """
     ex = Exception("boom")
     mock_api_call = mocker.MagicMock(side_effect=ex)
