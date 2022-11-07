@@ -49,7 +49,7 @@ def test_MetadataSyncJob_has_default_timeout(mocker, homedir, session, session_m
     assert api_client.default_request_timeout == job.DEFAULT_REQUEST_TIMEOUT
 
 
-def test_MetadataSyncJob_takes_overriden_timeout(mocker, homedir, session, session_maker):
+def test_MetadataSyncJob_takes_overridden_timeout(mocker, homedir, session, session_maker):
     api_client = mocker.patch("securedrop_client.logic.sdclientapi.API")
     remote_user = factory.RemoteUser()
     api_client.get_users = mocker.MagicMock(return_value=[remote_user])
