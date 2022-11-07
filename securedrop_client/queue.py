@@ -75,7 +75,7 @@ class RunnableQueue(QObject):
         self.api_client = api_client
         self.session_maker = session_maker
         self.queue = PriorityQueue()  # type: PriorityQueue[Tuple[int, QueueJob]]
-        # `order_number` ensures jobs with equal priority are retrived in FIFO order. This is needed
+        # `order_number` ensures jobs with equal priority are retrieved in FIFO order. This is needed
         # because PriorityQueue is implemented using heapq which does not have sort stability. For
         # more info, see : https://bugs.python.org/issue17794
         self.order_number = itertools.count()
