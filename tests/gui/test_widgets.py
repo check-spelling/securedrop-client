@@ -5222,7 +5222,7 @@ def test_SourceProfileShortWidget_update_timestamp(mocker):
 
 def test_SenderIcon_for_deleted_user(mocker):
     """
-    Ensure reply sender badge shows image instead of initials for delted user.
+    Ensure reply sender badge shows image instead of initials for deleted user.
     """
     sender = factory.User(username="deleted")
     si = SenderIcon()
