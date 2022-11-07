@@ -217,7 +217,7 @@
   * No longer sync after sending a reply (#722).
   * Update gui instead of sync when a file is missing (#724).
   * Revert usage of subprocess.check_output text parameter (#755).
-  * Update obselete original_filename usage in file_ready (#773).
+  * Update obsolete original_filename usage in file_ready (#773).
   * Don't import source keys we already have (#749).
   * Make sync continuous (#739).
   * Remove shadow on sign in button (#763).
