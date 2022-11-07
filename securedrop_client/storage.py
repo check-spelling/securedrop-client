@@ -246,7 +246,7 @@ def _get_flagged_locally_deleted(
 ) -> Tuple[List[DeletedConversation], List[DeletedSource]]:
     """
     Helper function that returns two lists of source UUIDs, corresponding to
-    locally-deleted conversations and sources, respsectively.
+    locally-deleted conversations and sources, respectively.
 
     The first sync after a conversation or source is deleted locally, we avoid updating it, in
     order to avoid potentially re-downloading deleted data in a network race.
