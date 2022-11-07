@@ -194,7 +194,7 @@ def test_SyncIcon_init(mocker):
     assert filename == "sync_disabled.gif"
 
 
-def test_SyncIcon_init_starts_animiation(mocker):
+def test_SyncIcon_init_starts_animation(mocker):
     movie = QMovie()
     movie.start = mocker.MagicMock()
     mocker.patch("securedrop_client.gui.widgets.load_movie", return_value=movie)
@@ -227,7 +227,7 @@ def test_SyncIcon_enable(mocker):
     assert filename == "sync.gif"
 
 
-def test_SyncIcon_enable_starts_animiation(mocker):
+def test_SyncIcon_enable_starts_animation(mocker):
     movie = QMovie()
     movie.start = mocker.MagicMock()
     mocker.patch("securedrop_client.gui.widgets.load_movie", return_value=movie)
@@ -248,7 +248,7 @@ def test_SyncIcon_disable(mocker):
     assert filename == "sync_disabled.gif"
 
 
-def test_SyncIcon_disable_starts_animiation(mocker):
+def test_SyncIcon_disable_starts_animation(mocker):
     movie = QMovie()
     movie.start = mocker.MagicMock()
     mocker.patch("securedrop_client.gui.widgets.load_movie", return_value=movie)
