@@ -327,7 +327,7 @@ There are two packages you'll have to install manually in order to run the entir
 `apt install xvfb`
 `apt install sqlite3`
 
-We launch tests via `xvfb-run` on an `xvfb` X server in order to support machines with no display hardware, like we have in CircleCI. Even when running tests on a machine with display hardware, `xvfb` is useful in that it prevents a bunch of windows and dialogs from popping up on your desktop. If you want to run tests without `xfvb` then you can just uninstall it and run thet tests and checks as described below.
+We launch tests via `xvfb-run` on an `xvfb` X server in order to support machines with no display hardware, like we have in CircleCI. Even when running tests on a machine with display hardware, `xvfb` is useful in that it prevents a bunch of windows and dialogs from popping up on your desktop. If you want to run tests without `xvfb` then you can just uninstall it and run thet tests and checks as described below.
 
 NOTE: `xvfb-run` will start and stop `xvfb` for you.
 
